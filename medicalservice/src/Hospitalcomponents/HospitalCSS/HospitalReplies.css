@@ -1,0 +1,39 @@
+.rep-container{
+   
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #f5e2e2;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s;
+    text-align: center;
+}
+.rep-input {
+    border-bottom-color: black;
+    margin: 4px;
+    width: 95%;
+    height: 30px;
+    border-radius: 8px;
+    border: none solid black;
+    color: rgb(0, 0, 0);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rep-textarea{
+    margin: 4px;
+    width: 95%;
+    height: auto;
+    border-radius: 8px;
+}
+#replay{
+    color: #ffffff;
+    background-color: blue;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+#replay:hover{
+    background-color: rgba(7, 146, 7, 0.822);
+    cursor: pointer;
+}

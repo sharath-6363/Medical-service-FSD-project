@@ -1,0 +1,58 @@
+#login {
+  text-align: center;
+}
+
+.log-h1 {
+  color: rgb(40, 108, 253);
+}
+
+#form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#Admin-Log-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: solid 1px rgb(255, 255, 255);
+  background-color: white;
+  box-shadow: 0 0 15px #665e5e8a;
+}
+/* 
+.Admin-Log-form:hover {
+  box-shadow: 0 0 10px #000000b9;
+} */
+
+.log-label {
+  font-weight: bold;
+  color: rgb(219, 40, 40);
+}
+
+.log-input {
+  width: 95%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 10px;
+}
+
+#btn-login {
+  background-color: #4caf50;
+  color: white;
+  width: fit-content;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-login:hover {
+  background-color: #4eb854;
+}
+
+.log-p {
+  font-size: small;
+  color: red;
+}

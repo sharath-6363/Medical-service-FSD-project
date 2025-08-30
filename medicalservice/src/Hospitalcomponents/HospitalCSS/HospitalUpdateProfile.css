@@ -1,0 +1,51 @@
+.update-form {
+  top: 0%;
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #f5e2e2;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 15px #2b2a2ab0;
+}
+
+.upd-input,
+.upd-textarea {
+  border: 1px solid black;
+  margin: 20px;
+  width: 95%;
+  height: 30px;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.upd-textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+#upd-btn {
+  color: #ffffff;
+  background-color: blue;
+  border: none;
+  margin: 8px;
+  padding: 10px;
+  margin-left: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#upd-btn:hover {
+  background-color: rgb(91, 91, 255);
+}
+
+#upd-lable {
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+}
+.update-form {
+  margin-top: 30px;
+}

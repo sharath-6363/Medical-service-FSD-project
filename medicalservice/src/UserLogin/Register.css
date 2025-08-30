@@ -1,0 +1,84 @@
+
+
+.container {
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719);
+    &:hover{
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.719);
+    }
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .col-md-6 {
+    padding: 20px;
+  }
+  
+  .register-form {
+    padding: 20px;
+  }
+  
+  #reg-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #btn-submit {
+    position: relative;
+    right: 50px;
+    width: 50%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .reg-aline {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .reg-p {
+    font-size: 14px;
+  }
+  
+  img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }

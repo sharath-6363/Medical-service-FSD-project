@@ -1,0 +1,146 @@
+.con-h1 {
+  font-size: 3rem;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.con-form {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 10px gray;
+  background: transparent;
+}
+
+.con-form:hover {
+  box-shadow: 0 0 10px rgb(20, 19, 19);
+}
+
+.con-input {
+  border: none;
+  border-bottom: 2px solid #333;
+  margin: 8px 0;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  color: #333;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: border-color 0.3s;
+}
+
+.con-input:hover {
+  border-color: lightcoral;
+}
+
+.con-textarea {
+  margin: 8px 0;
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.con-textarea:hover {
+  border-color: lightcoral;
+}
+
+.con-submit {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(33, 65, 245);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.con-submit:hover {
+  background-color: rgb(70, 94, 228);
+}
+
+.con-alineBox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.con-MakeCall,
+.con-Location,
+.con-Hours {
+  background-color: #dbd5d5;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  height: 200px;
+  width: 20%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.con-MakeCall:hover,
+.con-Location:hover,
+.con-Hours:hover {
+  transform: scale(1.05);
+}
+
+.con-link {
+  width: fit-content;
+  font-size: medium;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.my-text {
+  font-size: medium;
+  color: black;
+}
+
+.my-bold-text {
+  font-weight: bold;
+}
+
+.my-italic-text {
+  font-size: medium;
+  color: black;
+}
+
+.my-underlined-text {
+  text-decoration: underline;
+}
+
+.my-centered-text {
+  text-align: center;
+}
+
+.my-right-aligned-text {
+  text-align: right;
+}
+
+.my-margined-text {
+  margin: 10px;
+}
+
+.my-max-width-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#Replies {
+  position: absolute;
+  top: 438px;
+  left: 65%;
+}

@@ -1,0 +1,42 @@
+.registered-container {
+  margin: 20px;
+}
+
+.table-header {
+  color: #333;
+}
+
+.custom-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-header-row {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+}

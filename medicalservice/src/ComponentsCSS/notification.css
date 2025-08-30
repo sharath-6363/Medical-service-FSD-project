@@ -1,0 +1,9 @@
+#notify12{
+    margin-top: 10px;
+    width: 280px;
+    height: 1000px;
+    right:10px;
+    position: fixed;
+    background-color: #dedede;
+    border-radius: 8px;
+}

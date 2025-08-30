@@ -1,0 +1,96 @@
+.about-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #f2f2f2;
+}
+
+.About-Doctors {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.about-card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.about-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.664);
+}
+
+.about-icon img {
+  width: 50%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.about-icon {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  color: #555;
+}
+
+.about-link {
+  display: block;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.about-link:hover {
+  background-color: #258cd1;
+}
+
+.about-page {
+  background-color: #86a7fc;
+  padding: 30px;
+  text-align: center;
+}
+
+.about-p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.about-Team,
+.About-Department,
+.About-Clinic {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.About-Team:hover,
+.About-Department:hover,
+.About-Clinic:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#link-to {
+  text-decoration: none;
+  font-size: large;
+  color: #382aff;
+}
+#about-img{
+  width: 250px;
+  height: auto;
+}

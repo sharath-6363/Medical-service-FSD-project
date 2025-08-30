@@ -1,0 +1,58 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container-fluid {
+  padding-top: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+h2 {
+  color: #4d6d9a;
+  font-weight: bold;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+.fs-5 {
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3 !important;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-top: 30px;
+  }
+}

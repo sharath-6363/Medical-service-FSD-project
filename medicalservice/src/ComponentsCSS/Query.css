@@ -1,0 +1,92 @@
+.query-h1 {
+  font-size: 3rcap;
+  margin: 0 auto;
+  width: 300px;
+  padding: 20px;
+}
+
+.query-form {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #f5e2e2;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.822);
+}
+
+.query-form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.query-form:hover {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.query-input {
+  border-bottom-color: black;
+  margin: 4px;
+  width: 95%;
+  height: 30px;
+  border-radius: 8px;
+  border: none solid black;
+  color: rgb(0, 0, 0);
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.query-input:hover {
+  border-color: lightcoral;
+}
+
+.query-submit {
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(33, 65, 245);
+}
+
+.query-submit:hover {
+  background-color: rgb(70, 94, 228);
+  cursor: pointer;
+}
+.query-textarea {
+  margin: 10px;
+  width: 95%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.query-textarea:hover {
+  border-color: lightcoral;
+}
+.query-container {
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .query-form {
+    width: 50%;
+  }
+
+  .query-textarea {
+    width: 100%;
+  }
+
+  .query-submit {
+    width: 30%;
+  }
+}
+.form-select {
+  margin-bottom: 8px;
+}

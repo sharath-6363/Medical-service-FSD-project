@@ -1,0 +1,123 @@
+.hero-section {
+  position: inherit;
+  text-align: center;
+  padding: 20px;
+  object-fit: inherit;
+  height: 250px;
+  background-color:#e6e6e6;
+}
+#searchbar {
+  width: 80%;
+  height: 40px;
+  border: none 1;
+  border-radius: 5px;
+  background-color: #f7f3f393;
+}
+#searchbtn {
+  position: absolute;
+  right: 84%;
+  top: 61%;
+  rotate:inherit;
+}
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.cta-container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.services-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #0a0a0a;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.service-card {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  background-color: #fffefe;
+  transition: box-shadow 0.3s;
+}
+
+.service-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.356);
+}
+
+.service-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.service-link {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.service-link:hover {
+  color: #0056b3;
+}
+
+#Primary {
+  border-radius: 10px;
+  width: 95%;
+}
+#Clinics {
+  border-radius: 10px;
+  width: 95%;
+  height: 50%;
+}
+#service-img {
+  width: auto;
+  height: 110px;
+  border-radius: 5px;
+}

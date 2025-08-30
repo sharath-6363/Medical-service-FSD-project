@@ -1,0 +1,14 @@
+.remove {
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+  font-weight: bold;
+  &:hover {
+    color: rgb(255, 9, 9);
+  }
+}
+.remove {
+  position: absolute;
+  top: 235px;
+  right: 320px;
+}

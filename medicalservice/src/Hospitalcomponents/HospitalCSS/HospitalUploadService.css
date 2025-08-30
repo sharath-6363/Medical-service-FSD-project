@@ -1,0 +1,43 @@
+.upd-serv {
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #e2d8d8;
+    border-radius: 10px;
+    background-color: #eceaea67;
+    transition: box-shadow 1s;
+    
+}
+
+.upd-servinput {
+    border-bottom-color: black;
+    margin: 8px;
+    width: 95%;
+    height: 30px;
+    border-radius: 8px;
+    border: none solid black;
+    color: rgb(0, 0, 0);
+}
+
+#upd-servBtn {
+   
+    background-color: rgb(6, 143, 255);
+    color: #ffffff;
+    border: none;
+    margin: 8px;
+    margin-left: 35%;
+    padding: 8px;
+    border-radius: 5px;
+}
+#upd-servBtn:hover{
+    background-color: rgb(71, 101, 231);
+    cursor: pointer;
+}
+#upd-servr{
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: 400;
+}
+.upd-serv{
+    margin-top: 30px;
+}

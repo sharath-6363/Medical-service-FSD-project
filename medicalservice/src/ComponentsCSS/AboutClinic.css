@@ -1,0 +1,20 @@
+.aboutclinic {
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+#abo-clinic {
+    color: rgb(63, 63, 233);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cli-p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cli-h5 {
+    font-size: large;
+    color: rgb(63, 63, 233);
+}
